@@ -1,5 +1,4 @@
-# Project4_447
- Project : Weather Quest
+# Project : Weather Quest
 
 This project implements a weather animation display using a TM4C123 microcontroller and an ST7735 LCD screen. It cycles through different weather conditions and displays animated weather icons.
 
