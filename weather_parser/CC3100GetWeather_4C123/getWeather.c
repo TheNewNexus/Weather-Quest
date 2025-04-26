@@ -390,9 +390,9 @@ void Crash(uint32_t time)
 // 1) change Austin Texas to your city
 // 2) metric(for celsius), imperial(for fahrenheit)
 // api.openweathermap.org/data/2.5/weather?q={city name},{state code}&appid={API key}
-#define REQUEST "GET /data/2.5/weather?q=Long%20Beach&APPID=a2b8b0d8ab4bbca7f946581ca034730a&units=imperial HTTP/1.1\r\nUser-Agent: Keil\r\nHost:api.openweathermap.org\r\nAccept: */*\r\n\r\n"
+#define REQUEST "GET /data/2.5/weather?q=Long%20Beach&APPID=GET_API_FROM_ACCOUNT&units=imperial HTTP/1.1\r\nUser-Agent: Keil\r\nHost:api.openweathermap.org\r\nAccept: */*\r\n\r\n"
 #define API_BASE "GET /data/2.5/weather?"
-#define API_KEY "&APPID=a2b8b0d8ab4bbca7f946581ca034730a&units=imperial"
+#define API_KEY "&APPID=GET_API_FROM_ACCOUNT&units=imperial"
 #define API_SUFFIX " HTTP/1.1\r\nUser-Agent: Keil\r\nHost:api.openweathermap.org\r\nAccept: */*\r\n\r\n"
 
 // 1) go to http://openweathermap.org/appid#use
